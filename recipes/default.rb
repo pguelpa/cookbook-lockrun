@@ -26,4 +26,5 @@ bash 'compile_lockrun_source' do
     gcc lockrun.c -o lockrun
     sudo cp lockrun #{node[:lockrun][:prefix]}
   EOH
+  not_if { ::File.exists?(::File.join(node[:lockrun][:prefix], 'lockrun')) }
 end
