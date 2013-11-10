@@ -3,6 +3,6 @@ maintainer_email "paul@shopkeep.com"
 license          "Apache 2.0"
 description      "Installs/Configures lockrun"
 
-version          "0.2"
+version          "0.2.0"
 
 depends "build-essential"
