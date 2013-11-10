@@ -1,3 +1,4 @@
+name		 "lockrun"
 maintainer       "Paul Guelpa"
 maintainer_email "paul.guelpa@gmail.com"
 license          "Apache 2.0"
